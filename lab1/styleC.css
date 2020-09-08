@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&display=swap");
+* {
+  font-family: "Long Cang", cursive;
+  font-size: 44px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: #eeeff2;
+  margin: 10px;
+  border-radius: 50%;
+  animation: e 7s infinite;
+}
+@keyframes e {
+  0% {
+    color: #f00;
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 1);
+  }
+  33% {
+    color: #ff0;
+    box-shadow: 0 3px 10px rgba(255, 255, 0, 1);
+    border: 1px solid rgba(255, 255, 0, 1);
+  }
+  66% {
+    color: #0f0;
+    box-shadow: 0 3px 10px rgba(0, 255, 0, 1);
+    border: 1px solid rgba(0, 255, 0, 1);
+  }
+  100% {
+    color: #f00;
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 1);
+  }
+}
+.box:nth-child(1) {
+  animation-delay: 0s;
+}
+.box:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.box:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.box:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.box:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.box:nth-child(6) {
+  animation-delay: 0.5s;
+}

@@ -1,0 +1,56 @@
+* {
+  font-family: Tahoma;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.box {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  background-color: #eeeff2;
+  border-style: dotted;
+  border-color: #d0d0ff;
+  border-width: 0 0 0 10px;
+  margin: 0 0 0 10px;
+}
+.box:nth-child(6) {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.box:hover {
+  color: goldenrod;
+  background-color: yellow;
+}
+* {
+  font-family: Tahoma;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.box {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  background-color: #eeeff2;
+  border-style: dotted;
+  border-color: #d0d0ff;
+  border-width: 0 0 0 10px;
+  margin: 0 0 0 10px;
+}
+.box:nth-child(6) {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.box:hover {
+  color: goldenrod;
+  background-color: yellow;
+}
