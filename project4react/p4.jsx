@@ -8,9 +8,22 @@ function Card (){
 }
 function App() {
   return (
-    <div>
-      
-    </div>
+    <BrowserRouter>
+    <Header/>
+    
+     
+    <Route path="/" exact>
+   
+    </Route>
+
+    <Route path="/example">
+      <Example />
+    </Route>
+    <Route path="/states" >
+      <States />
+    </Route>
+
+    </BrowserRouter>
   );
 }
 
