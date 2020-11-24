@@ -1,0 +1,17 @@
+nav {
+  font-size: 1rem;
+  height: 50px;
+  background-color: #fff;
+  color: #122868;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+ul > li {
+  width: 180px;
+}
