@@ -1,0 +1,14 @@
+.img > img {
+  min-width: 8vw;
+  min-height: 8vw;
+}
+
+.photogrid {
+  padding-top: 20px;
+  width: 80%;
+  display: flex;
+}
+.photogrid > div {
+  width: 40%;
+  height: auto;
+}
